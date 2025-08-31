@@ -1,0 +1,49 @@
+HOW TO RUN THE PHARMACY POS APPLICATION
+
+1. PREREQUISITES:
+   - Python 3.6 or higher must be installed on your system
+   - Tkinter should be included with Python (standard library)
+   - SQLite should be included with Python (standard library)
+
+2. FILES INCLUDED:
+   - main.py: The main application file
+   - README.md: Detailed documentation
+   - requirements.txt: Optional dependencies
+   - run.bat: Windows batch file to run the application
+   - run.ps1: PowerShell script to run the application
+   - verify_setup.py: Script to check if requirements are met
+
+3. RUNNING THE APPLICATION:
+
+   Method 1 - Using the batch file (Windows):
+      - Double-click on "run.bat" file
+      - OR run from command prompt: run.bat
+
+   Method 2 - Direct Python execution:
+      - Open command prompt or terminal
+      - Navigate to the application directory: cd d:\POS
+      - Run the command: python main.py
+
+   Method 3 - Using PowerShell script:
+      - Right-click on "run.ps1" and select "Run with PowerShell"
+      - OR run from PowerShell: .\run.ps1
+
+4. DEFAULT LOGIN CREDENTIALS:
+   - Username: admin
+   - Password: admin123
+   - Role: Admin
+
+5. VERIFICATION:
+   - To check if your system meets the requirements, run:
+     python verify_setup.py
+
+6. PACKAGING (Optional):
+   To create a standalone executable:
+   1. Install PyInstaller: pip install pyinstaller
+   2. Create executable: pyinstaller --onefile --windowed main.py
+   3. Find the executable in the "dist" folder
+
+7. TROUBLESHOOTING:
+   - If you get "python is not recognized" error, Python is not in your PATH
+   - Make sure you have Python 3.6 or higher installed
+   - Tkinter is sometimes not included in minimal Python installations

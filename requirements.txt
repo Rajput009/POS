@@ -1,0 +1,8 @@
+# Basic requirements (usually included with Python)
+# No additional packages needed for core functionality
+
+# Optional packages for extended functionality:
+# openpyxl>=3.0.0      # For Excel export
+# xlsxwriter>=1.0.0    # For Excel export
+# reportlab>=3.0.0     # For PDF export
+# pyinstaller>=4.0.0   # For creating executable
